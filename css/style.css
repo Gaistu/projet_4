@@ -729,12 +729,12 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333 !important;
-}
-
 h1 span {
     font-size: 50px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    background-color: #000000;
+    padding: 5px 15px;
 }
 
 h4 {
@@ -768,11 +768,6 @@ h4 {
     padding: 40px 40px 40px 40px;
 }
 
-.bold-link {
-    font-weight: 900;
-    text-decoration: underline !important;
-}
-
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -789,6 +784,10 @@ h4 {
     color: #F3976C !important;
 }
 
+.tc-black {
+    color: #000000 !important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF !important;
@@ -797,14 +796,6 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
     color: #FFFFFF !important;
-}
-
-.ltc-white {
-    color: #FFFFFF !important;
-}
-
-.ltc-white:hover {
-    color: #cccccc !important;
 }
 
 .ltc-atomic-tangerine {
