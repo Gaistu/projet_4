@@ -551,6 +551,7 @@ a[data-lightbox]:hover::before {
     width: 50px;
     height: 50px;
     margin-left: -25px;
+    padding-top: 5px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -566,6 +567,16 @@ a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
+}
+
+#network {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0 0 80px;
+}
+
+.links {
+    color: #000000;
 }
 
 #lightbox-modal {
@@ -659,7 +670,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
+    color: #121212;
 }
 
 .container {
@@ -700,7 +711,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -720,7 +731,7 @@ h2 {
 h3 {
     font-size: 18px;
     font-weight: 700;
-    color: #333333 !important;
+    color: #121212;
 }
 
 .med-width-whitespace {
@@ -738,7 +749,7 @@ h1 span {
 }
 
 h4 {
-    color: #333333 !important;
+    color: #121212;
 }
 
 .icons {
@@ -747,7 +758,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -781,34 +792,34 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: #F3976C;
 }
 
 .tc-black {
-    color: #000000 !important;
+    color: #121212;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
-    color: #FFFFFF !important;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C !important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956 !important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577 !important;
-    border-color: #364577 !important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
