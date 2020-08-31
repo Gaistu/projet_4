@@ -166,25 +166,6 @@ a {
     margin-left: 650px;
 }
 
-/*#contact {
-    display: flex;
-    flex-direction: row;
-}
-
-#contact .form-group {
-    margin-left: 200px;
-    flex: 1;
-}
-
-#contact #address-info {
-    flex: 2;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}*/
-
-
 #address-info {
     margin-top: 5%;
     background-color: rgb(236, 227, 227);
@@ -211,53 +192,6 @@ form {
 .form-control {
     border-color: rgba(0, 0, 0, 0.1);
     box-shadow: none;
-}
-
-/**************************************************************/
-/***************          RESPONSIVE           ****************/
-/**************************************************************/
-
-
-
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-
-    .nav>li .dropdown-menu a,
-    .nav>li .dropdown-menu a:hover {
-        color: #484848;
-    }
-
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-
-    .nav-center {
-        text-align: center;
-    }
-
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-
-    .nav-center .mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
 }
 
 .nav>li>.dropdown a {
@@ -678,6 +612,54 @@ h4 {
 .bg-presentation {
     background-image: url("../img/image-de-presentation.jpg");
 }
+
+
+/**************************************************************/
+/***************          RESPONSIVE           ****************/
+/**************************************************************/
+
+
+@media (min-width: 768px) {
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+
+    .nav>li .dropdown-menu a,
+    .nav>li .dropdown-menu a:hover {
+        color: #484848;
+    }
+
+    .nav-invert .site-navigation {
+        left: 0;
+        right: 0;
+    }
+
+    .nav-center {
+        text-align: center;
+    }
+
+    .nav-center .navbar-header {
+        width: 100%;
+    }
+
+    .nav-center .site-navigation {
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .nav-center .mini-nav .navbar-toggle {
+        float: none;
+        margin: 10px auto 0;
+    }
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
