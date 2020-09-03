@@ -138,60 +138,19 @@ a {
 /**************************************************************/
 
 
-#header-nav-contact {
-    text-align: center;
-    margin-left: 300px;
-}
-
-#header-nav-contact img {
-    margin-right: 500px;
-}
-
-#header-nav-contact ul {
-    margin: -2px -150px;
-}
-
-#banner-contact {
-    text-align: center;
-}
-
-#banner-contact h1 {
-    width: 1000px;
-    text-align: center;
-    margin-left: 450px;
-}
-
-#banner-contact p {
-    width: 1000px;
-    margin-left: 650px;
-}
-
-#address-info {
-    margin-top: 5%;
-    background-color: rgb(236, 227, 227);
-}
-
 #address-info h2 span {
-    border-bottom: 5px solid black;
-    word-wrap: break-word;
+    border-bottom: 4px solid black;
+    margin-left: 80px;
 }
 
 address p {
-    padding: 5px 0 5px 0;
+    padding: 20px;
+    margin-left: 80px;
 }
 
 address span {
     font-size: 1em;
     font-weight: bold;
-}
-
-form {
-    padding: 0 15px 0 15px;
-}
-
-.form-control {
-    border-color: rgba(0, 0, 0, 0.1);
-    box-shadow: none;
 }
 
 .mg-md {
@@ -233,11 +192,11 @@ form {
 }
 
 .icon-md {
-    font-size: 1.5em !important;
+    font-size: 2.5em !important;
 }
 
 .icon-lg {
-    font-size: 2.5em !important;
+    font-size: 4.5em !important;
 }
 
 .sm-shadow {
@@ -456,7 +415,7 @@ p {
 .cta-hero {
     margin-top: 22px;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 12px 28px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -548,7 +507,6 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956;
-    color: #FFFFFF;
 }
 
 .ltc-atomic-tangerine {
