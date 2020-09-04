@@ -39,6 +39,19 @@ a:hover {
     cursor: pointer;
 }
 
+#title-services {
+    margin-bottom: 80px;
+    font-size: 1.3em;
+}
+
+blockquote p {
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
 .bloc {
     padding-left: 0;
     padding-right: 0;
@@ -117,7 +130,6 @@ a:hover {
 .nav>li {
     display: block;
     font-size: 16px;
-    padding: 10px 15px;
 }
 
 
@@ -719,7 +731,6 @@ h4 {
     }
 
     .nav-invert .navbar-header {
-        float: none;
         width: 100%;
     }
 
