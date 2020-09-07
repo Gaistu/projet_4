@@ -39,6 +39,14 @@ a:hover {
     cursor: pointer;
 }
 
+#footer-link li a {
+    padding: 1em;
+}
+
+#footer-link h3 {
+    font-weight: bold;
+}
+
 #title-services {
     margin-bottom: 80px;
     font-size: 1.3em;
@@ -392,16 +400,6 @@ a {
     font-size: 40px;
 }
 
-.statement-bloc-text {
-    line-height: 26px;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
-    margin: auto;
-}
-
 p {
     font-size: 16px;
 }
@@ -409,11 +407,6 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -426,7 +419,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -673,7 +666,6 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none;
     }
 
     .navbar.row {
@@ -794,15 +786,12 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+@media (max-width: 500px) {
+    h1 span {
+        font-size: 1em;
     }
-}
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
+    #realisations img {
+        margin-left: 70px;
     }
 }
