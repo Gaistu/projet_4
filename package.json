@@ -1,0 +1,17 @@
+{
+  "name": "La Chouette Agence",
+  "version": "0.1.0",
+  "description": "Site sur une agence de web design basée à Lyon",
+  "keywords": [
+    "Agence",
+    "Web design",
+    "Lyon",
+    "Entreprise"
+  ],
+  "license": "MIT",
+  "homepage": "https://gaistu.github.io/projet_4/index.html",
+  "repositorty": {
+    "type": "git",
+    "url": "https://github.com/Gaistu/projet_4"
+  }
+}
