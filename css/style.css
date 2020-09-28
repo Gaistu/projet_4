@@ -782,7 +782,11 @@ h4 {
 
 @media (max-width: 500px) {
     h1 span {
-        font-size: 1em;
+        font-size: .8em;
+    }
+
+    .portfolio-thumb {
+        padding-right: 140px;
     }
 
     #realisations img {
